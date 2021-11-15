@@ -26,3 +26,14 @@ $('.sub').click(function(){
  }, 5000);
 
 })
+
+$('button').click(function(){
+  // toggle class
+  $('body').toggleClass('dark');
+  // change text based on current text
+  if( $('button').text() == 'Dark' ){
+    $('button').text('Light');
+  } else {
+    $('button').text('Dark');
+  }
+})
