@@ -136,25 +136,25 @@ body{
         0%{
             opacity:.75;
             top:-100%;
-            transform:translateX(20px) rotate(0deg);
+            transform:translateX(1.25rem) rotate(0deg);
         }
         20%{
             opacity:0.1;
-            transform:translateX(20px) rotate(45deg);
+            transform:translateX(1.25rem) rotate(45deg);
         }
         40%{
-            transform:translateX(20px) rotate(90deg);
+            transform:translateX(1.25rem) rotate(90deg);
         }
         60%{
-            transform:translateX(20px) rotate(135deg);
+            transform:translateX(1.25rem) rotate(135deg);
         }
         80%{
-            transform:translateX(20px) rotate(180deg);
+            transform:translateX(1.25rem) rotate(180deg);
         }
         100%{
             opacity:.25;
             top:80%;
-            transform:translateX(20px) rotate(225deg);
+            transform:translateX(1.25rem) rotate(225deg);
         }
     }
     .main-content{
@@ -336,7 +336,7 @@ body{
         text-decoration:none;
         margin: 0;
         border-radius:2em;
-        animation:bouncy 5s infinite linear;
+        animation:bouncing 5s infinite linear;
         position:relative;
         color:#FFFFFF;
         text-align:center;
@@ -349,7 +349,7 @@ body{
     form button:hover{
         border-color: rgba(255,255,255,1);
     }
-    @keyframes bouncy {
+    @keyframes bouncing {
         0%{
             top:0rem
 }
