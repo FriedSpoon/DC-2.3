@@ -173,7 +173,7 @@ body{
     }
     .text-elements h1{
         font-family: 'Rajdhani', sans-serif;
-        font-size: 4rem;
+        font-size: 3rem;
         margin: 0;
     }
     .text-elements{
@@ -184,7 +184,7 @@ body{
         padding: 5rem;
     }
     .text-elements p{
-        font-size: 2rem;
+        font-size: 1rem;
         padding-bottom: 1rem;
         font-family: 'Rajdhani', sans-serif;
     }
@@ -351,25 +351,25 @@ body{
     }
     @keyframes bouncy {
         0%{
-            top:0em
+            top:0rem
 }
         40%{
-            top:0em
+            top:0rem
 }
         43%{
-            top:-0.9em
+            top:-0.9rem
 }
         46%{
-            top:0em
+            top:0rem
 }
         48%{
-            top:-0.4em
+            top:-0.4rem
 }
         50%{
-            top:0em
+            top:0rem
 }
         100%{
-            top:0em;
+            top:0rem;
         }
     }
     
