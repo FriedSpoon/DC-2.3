@@ -329,6 +329,12 @@ body{
             grid-column: 1;
             padding: 2rem;
         }
+        .text-elements h1{
+            font-size: 3rem;
+        }
+        .text-elements p{
+            font-size: 1rem;
+        }
     }
     form{
     }
