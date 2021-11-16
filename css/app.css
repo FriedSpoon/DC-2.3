@@ -12,6 +12,7 @@
 }
 body{
     height: 100vh;
+    overflow: hidden;
     background-image: url("");
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
